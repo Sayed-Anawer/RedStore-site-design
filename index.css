@@ -119,7 +119,8 @@ p{
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .col-4 img{
@@ -147,3 +148,22 @@ p{
     transform: translateX(-50%);
 }
 /* Horizontal line custom End */
+
+h4{
+    color: #555;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+.col-4 p{
+    font-size: 16px;
+    margin-top: 8px;
+}
+.rating .fas,.far{
+    color: #ff523b;
+    margin-top: 8px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
